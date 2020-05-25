@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.crm.qa.util.Listeners" />
+	</listeners>
+	<test name="LaunchPageTest">
+		<classes>
+			<class name="com.crm.qa.tests.LaunchPageTest" />
+		</classes>
+	</test>
+	<test name="LoginPageTest">
+		<classes>
+			<class name="com.crm.qa.tests.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="HomePageTest">
+		<classes>
+			<class name="com.crm.qa.tests.HomePageTest" />
+		</classes>
+	</test>
+</suite>

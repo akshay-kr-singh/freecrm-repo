@@ -1,0 +1,40 @@
+12:47:46.848 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:47:48.164 [main] INFO  com.crm.qa.tests.LaunchPageTest - true
+12:47:50.145 [main] INFO  com.crm.qa.tests.LaunchPageTest - browser closed
+12:48:12.905 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:48:21.178 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:48:21.270 [main] INFO  com.crm.qa.tests.LaunchPageTest - login page title is: Cogmento CRM
+12:48:21.270 [main] INFO  com.crm.qa.tests.LaunchPageTest - login page title validated successfully
+12:48:22.036 [main] INFO  com.crm.qa.tests.LaunchPageTest - browser closed
+12:48:47.387 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:48:47.391 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on signup page link
+12:48:52.701 [main] INFO  com.crm.qa.tests.LaunchPageTest - signup page url is: https://register.freecrm.com/register/
+12:48:52.701 [main] INFO  com.crm.qa.tests.LaunchPageTest - redirection to signup page validated successfully
+12:48:53.405 [main] INFO  com.crm.qa.tests.LaunchPageTest - browser closed
+12:49:20.999 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:49:29.613 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:49:29.629 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+12:49:31.216 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+12:49:31.567 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+12:49:34.654 [main] INFO  com.crm.qa.tests.LoginPageTest - logged in successfully and landed on home page
+12:49:35.404 [main] INFO  com.crm.qa.tests.LoginPageTest - browser closed
+12:49:59.881 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:50:07.718 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:50:07.721 [main] INFO  com.crm.qa.pages.LoginPage - clicking on 'Forgot your password?' link
+12:50:10.363 [main] INFO  com.crm.qa.tests.LoginPageTest - password reset page redirection validated successfully
+12:50:10.930 [main] INFO  com.crm.qa.tests.LoginPageTest - browser closed
+12:50:34.515 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:50:42.319 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:50:42.323 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+12:50:42.916 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+12:50:43.425 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+12:50:47.258 [main] INFO  com.crm.qa.tests.HomePageTest - user name display validation completed
+12:50:47.957 [main] INFO  com.crm.qa.tests.HomePageTest - browser closed
+12:51:09.313 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:51:16.299 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:51:16.301 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+12:51:16.963 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+12:51:17.259 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+12:51:17.417 [main] INFO  com.crm.qa.pages.HomePage - clicking on 'Contacts'
+12:51:21.203 [main] INFO  com.crm.qa.tests.HomePageTest - redirection to contacts page validated, successfully landed on contacts page
+12:51:22.480 [main] INFO  com.crm.qa.tests.HomePageTest - browser closed

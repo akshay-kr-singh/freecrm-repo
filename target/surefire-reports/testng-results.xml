@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="245238" started-at="2020-05-25T12:47:17 IST" finished-at="2020-05-25T12:51:22 IST">
+    <groups>
+    </groups>
+    <test name="LaunchPageTest" duration-ms="96164" started-at="2020-05-25T12:47:17 IST" finished-at="2020-05-25T12:48:53 IST">
+      <class name="com.crm.qa.tests.LaunchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="setUp" is-config="true" duration-ms="29686" started-at="2020-05-25T12:47:17 IST" finished-at="2020-05-25T12:47:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateBrandLogoTest()[pri:1, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="validateBrandLogoTest" duration-ms="1150" started-at="2020-05-25T12:47:47 IST" finished-at="2020-05-25T12:47:48 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.crm.qa.tests.LaunchPageTest.validateBrandLogoTest(LaunchPageTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrandLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="tearDown" is-config="true" duration-ms="541" started-at="2020-05-25T12:47:49 IST" finished-at="2020-05-25T12:47:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="setUp" is-config="true" duration-ms="22753" started-at="2020-05-25T12:47:50 IST" finished-at="2020-05-25T12:48:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginButtonTest()[pri:2, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="validateLoginButtonTest" duration-ms="8363" started-at="2020-05-25T12:48:12 IST" finished-at="2020-05-25T12:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="tearDown" is-config="true" duration-ms="257" started-at="2020-05-25T12:48:21 IST" finished-at="2020-05-25T12:48:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="setUp" is-config="true" duration-ms="25352" started-at="2020-05-25T12:48:22 IST" finished-at="2020-05-25T12:48:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSignupLinkTest()[pri:3, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="validateSignupLinkTest" duration-ms="5312" started-at="2020-05-25T12:48:47 IST" finished-at="2020-05-25T12:48:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LaunchPageTest@24fcf36f]" name="tearDown" is-config="true" duration-ms="175" started-at="2020-05-25T12:48:53 IST" finished-at="2020-05-25T12:48:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.LaunchPageTest -->
+    </test> <!-- LaunchPageTest -->
+    <test name="LoginPageTest" duration-ms="75562" started-at="2020-05-25T12:48:55 IST" finished-at="2020-05-25T12:50:10 IST">
+      <class name="com.crm.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@662b4c69]" name="setUp" is-config="true" duration-ms="34256" started-at="2020-05-25T12:48:55 IST" finished-at="2020-05-25T12:49:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginTest()[pri:1, instance:com.crm.qa.tests.LoginPageTest@662b4c69]" name="validateLoginTest" duration-ms="5026" started-at="2020-05-25T12:49:29 IST" finished-at="2020-05-25T12:49:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@662b4c69]" name="tearDown" is-config="true" duration-ms="136" started-at="2020-05-25T12:49:35 IST" finished-at="2020-05-25T12:49:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@662b4c69]" name="setUp" is-config="true" duration-ms="32315" started-at="2020-05-25T12:49:35 IST" finished-at="2020-05-25T12:50:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateForgotPasswordLinkTest()[pri:2, instance:com.crm.qa.tests.LoginPageTest@662b4c69]" name="validateForgotPasswordLinkTest" duration-ms="2644" started-at="2020-05-25T12:50:07 IST" finished-at="2020-05-25T12:50:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForgotPasswordLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.LoginPageTest@662b4c69]" name="tearDown" is-config="true" duration-ms="168" started-at="2020-05-25T12:50:10 IST" finished-at="2020-05-25T12:50:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test name="HomePageTest" duration-ms="71315" started-at="2020-05-25T12:50:11 IST" finished-at="2020-05-25T12:51:22 IST">
+      <class name="com.crm.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.HomePageTest@5fbdfdcf]" name="setUp" is-config="true" duration-ms="32576" started-at="2020-05-25T12:50:11 IST" finished-at="2020-05-25T12:50:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserIconTest()[pri:1, instance:com.crm.qa.tests.HomePageTest@5fbdfdcf]" name="validateUserIconTest" duration-ms="3515" started-at="2020-05-25T12:50:43 IST" finished-at="2020-05-25T12:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIconTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.HomePageTest@5fbdfdcf]" name="tearDown" is-config="true" duration-ms="118" started-at="2020-05-25T12:50:47 IST" finished-at="2020-05-25T12:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.HomePageTest@5fbdfdcf]" name="setUp" is-config="true" duration-ms="29457" started-at="2020-05-25T12:50:47 IST" finished-at="2020-05-25T12:51:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateContactsPageLinkTest()[pri:2, instance:com.crm.qa.tests.HomePageTest@5fbdfdcf]" name="validateContactsPageLinkTest" duration-ms="3787" started-at="2020-05-25T12:51:17 IST" finished-at="2020-05-25T12:51:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsPageLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.HomePageTest@5fbdfdcf]" name="tearDown" is-config="true" duration-ms="745" started-at="2020-05-25T12:51:21 IST" finished-at="2020-05-25T12:51:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
