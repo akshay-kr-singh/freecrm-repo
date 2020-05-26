@@ -3,8 +3,10 @@ C:\projects\FREECRM\src\main\java\com\crm\qa\pages\LoginPage.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\pages\SignupPage.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\util\ExtentReportsUtil.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\pages\ContactsPage.java
+C:\projects\FREECRM\src\main\java\com\crm\qa\util\NewContactsData.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\pages\HomePage.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\util\Listeners.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\pages\ResetPasswordPage.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\pages\LaunchPage.java
 C:\projects\FREECRM\src\main\java\com\crm\qa\util\Screenshot.java
+C:\projects\FREECRM\src\main\java\com\crm\qa\util\DataDrivenUtil.java

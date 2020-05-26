@@ -1,10 +1,12 @@
 com\crm\qa\pages\ResetPasswordPage.class
 com\crm\qa\pages\ContactsPage.class
-com\crm\qa\pages\LaunchPage.class
-com\crm\qa\base\TestBase.class
 com\crm\qa\pages\SignupPage.class
 com\crm\qa\pages\HomePage.class
-com\crm\qa\util\Screenshot.class
 com\crm\qa\pages\LoginPage.class
+com\crm\qa\util\NewContactsData.class
+com\crm\qa\pages\LaunchPage.class
+com\crm\qa\base\TestBase.class
+com\crm\qa\util\Screenshot.class
+com\crm\qa\util\DataDrivenUtil.class
 com\crm\qa\util\ExtentReportsUtil.class
 com\crm\qa\util\Listeners.class
