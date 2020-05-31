@@ -36,10 +36,10 @@ public class TestBase {
 	//Method to initialize WebDriver
 	public WebDriver initialization() {
 		//use below to control choice of browser using config.properties file 
-		String browser = prop.getProperty("browser");
+//		String browser = prop.getProperty("browser");
 		
 		//use below to provide choice of browser in maven command: mvn test -Dbrowser=chrome
-//	    String browser = System.getProperty("browser");			   
+	    String browser = System.getProperty("browser");			   
 	    
 		if(browser.contains("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
