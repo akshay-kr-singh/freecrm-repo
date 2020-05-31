@@ -1,7 +1,11 @@
 package com.crm.qa.pages;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -44,9 +48,24 @@ public class ContactsPage extends TestBase {
 		return displayContacts;
 	}
 	
-	public void createNewContact(String fn, String mn, String ln) {
+	public void createNewContact(String fn, String mn, String ln) throws InterruptedException {
+		String clickOnNewBtn = Keys.chord(Keys.CONTROL, Keys.ENTER);		
 		log.info("clicking on 'New' button");
-		newContactBtn.click();
+//		newContactBtn.click();
+		newContactBtn.sendKeys(clickOnNewBtn);
+//		Thread.sleep(5000);
+		Set<String> handleIds = driver.getWindowHandles();
+		Iterator<String> itr = handleIds.iterator();
+		String parentWindow = itr.next();
+		String childWindow = null;
+		while(itr.hasNext()) {
+			childWindow = itr.next();	
+		}
+				
+		driver.switchTo().window(childWindow);
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+				
 		log.info("entering first name");
 		firstName.clear();
 		firstName.sendKeys(fn);
@@ -59,7 +78,10 @@ public class ContactsPage extends TestBase {
 //		log.info("entering company name");
 //		company.sendKeys(cmp);
 		log.info("clicking on save button");
-		saveBtn.click();		
+		saveBtn.click();
+		Thread.sleep(2000);
+		
+		driver.switchTo().window(parentWindow);
 	}
 
 

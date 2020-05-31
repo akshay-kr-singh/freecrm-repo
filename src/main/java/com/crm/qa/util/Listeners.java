@@ -14,7 +14,7 @@ import com.crm.qa.base.TestBase;
 
 public class Listeners extends TestBase implements ITestListener {
 	
-	private ExtentReports extent = ExtentReportsUtil.getExtentReportsObject();
+	private ExtentReports extent = TestUtil.getExtentReportsObject();
 	private ExtentTest test;
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 
@@ -38,7 +38,7 @@ public class Listeners extends TestBase implements ITestListener {
 		String testName = result.getMethod().getMethodName();
 		
 		try {
-			extentTest.get().addScreenCaptureFromPath(Screenshot.takeScreenshot(driver, testName), result.getMethod().getMethodName());
+			extentTest.get().addScreenCaptureFromPath(TestUtil.takeScreenshot(driver, testName), result.getMethod().getMethodName());
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -59,7 +59,7 @@ public class Listeners extends TestBase implements ITestListener {
 		String testName = result.getMethod().getMethodName();
 		
 		try {
-			extentTest.get().addScreenCaptureFromPath(Screenshot.takeScreenshot(driver, testName), result.getMethod().getMethodName());
+			extentTest.get().addScreenCaptureFromPath(TestUtil.takeScreenshot(driver, testName), result.getMethod().getMethodName());
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -68,22 +68,18 @@ public class Listeners extends TestBase implements ITestListener {
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		extentTest.get().log(Status.SKIP, "Test Skipped");
-		
+		extentTest.get().log(Status.SKIP, "Test Skipped");		
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void onTestFailedWithTimeout(ITestResult result) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
 		
 	}
 

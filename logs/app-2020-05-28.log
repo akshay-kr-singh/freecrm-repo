@@ -1,0 +1,62 @@
+11:52:36.966 [main] INFO  com.crm.qa.pages.HomePage - clicking on 'Contacts'
+11:52:46.547 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+11:53:14.021 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+11:53:15.472 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+11:53:16.324 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+11:53:18.157 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button
+11:53:23.865 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+11:53:43.579 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+11:53:56.788 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+11:56:16.770 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+11:56:40.768 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+11:56:40.774 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+11:56:41.854 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+11:56:42.391 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+11:56:42.610 [main] INFO  com.crm.qa.pages.HomePage - clicking on 'Contacts'
+11:56:54.901 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+11:57:27.578 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+11:57:29.940 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+11:57:31.967 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+11:57:34.310 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button
+11:57:42.207 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+11:58:11.811 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+11:58:20.369 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+11:58:22.000 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+11:58:23.618 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button
+11:58:31.180 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+11:58:48.217 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+11:58:59.841 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+11:59:00.778 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+11:59:02.104 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button
+11:59:09.876 [main] INFO  com.crm.qa.tests.ContactsPageTest - browser closed
+12:05:38.508 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:06:36.607 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:06:36.633 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+12:06:41.723 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+12:06:43.918 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+12:06:44.570 [main] INFO  com.crm.qa.pages.HomePage - clicking on 'Contacts'
+12:06:56.285 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:06:59.416 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+12:07:59.968 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:08:00.521 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:09:10.723 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:09:48.802 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:09:48.835 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+12:09:50.154 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+12:09:50.714 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+12:09:51.100 [main] INFO  com.crm.qa.pages.HomePage - clicking on 'Contacts'
+12:10:02.230 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:10:54.416 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+12:10:54.576 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:10:54.669 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:13:51.262 [main] INFO  com.crm.qa.base.TestBase - url launched, landed on launch page
+12:14:29.137 [main] INFO  com.crm.qa.pages.LaunchPage - clicked on login page link
+12:14:29.179 [main] INFO  com.crm.qa.pages.LoginPage - entering email address
+12:14:30.833 [main] INFO  com.crm.qa.pages.LoginPage - entering password
+12:14:31.805 [main] INFO  com.crm.qa.pages.LoginPage - clicking on login button
+12:14:32.317 [main] INFO  com.crm.qa.pages.HomePage - clicking on 'Contacts'
+12:14:43.987 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:15:16.393 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+12:15:18.851 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+12:15:21.291 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+12:15:23.974 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button

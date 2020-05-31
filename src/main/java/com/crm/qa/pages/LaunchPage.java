@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.crm.qa.base.TestBase;
 
 public class LaunchPage extends TestBase {
-	Logger log = LogManager.getLogger(LaunchPage.class.getName());
+	private Logger log = LogManager.getLogger(LaunchPage.class.getName());
 	
 	//PageFactory: OR -- Object Repository
 	@FindBy(xpath = "//div[@class='rd-navbar-wrap'] //div[@class='rd-navbar-brand']")
@@ -37,9 +37,9 @@ public class LaunchPage extends TestBase {
 		return new LoginPage();
 	}
 	
-	public SignupPage validateSignupLink() {
-		log.info("clicked on signup page link");
+	public SignupPage validateSignupLink() {		
 		signupLink.click();
+		log.info("clicked on signup page link");
 		return new SignupPage();
 	}
 

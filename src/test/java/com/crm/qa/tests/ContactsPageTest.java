@@ -17,7 +17,7 @@ import com.crm.qa.pages.ContactsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LaunchPage;
 import com.crm.qa.pages.LoginPage;
-import com.crm.qa.util.NewContactsData;
+import com.crm.qa.util.TestUtil;
 
 public class ContactsPageTest extends TestBase {
 	public WebDriver driver;
@@ -42,18 +42,22 @@ public class ContactsPageTest extends TestBase {
 	
 	@Test(dataProvider="getData")
 	private void createNewContactsTest(String fn, String mn, String ln) {
-		contactsPage.createNewContact(fn, mn, ln);		
-		driver.navigate().back();
-		driver.navigate().refresh();
+		try {
+			contactsPage.createNewContact(fn, mn, ln);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}		
+//		driver.navigate().back();
+//		driver.navigate().refresh();
 	}
 	
 	@DataProvider
 	private Iterator<Object[]> getData() {
 		ArrayList<Object[]> data = null;
+		
 		try {
-			data = NewContactsData.getNewContacts();
+			data = TestUtil.getNewContacts();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -71,7 +75,7 @@ public class ContactsPageTest extends TestBase {
 	
 	@AfterClass
 	private void tearDown() {
-		driver.close();
+		driver.quit();
 		log.info("browser closed");
 	}
 

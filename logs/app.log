@@ -1,0 +1,11 @@
+12:15:27.081 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:15:49.672 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+12:16:01.592 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+12:16:02.734 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+12:16:04.200 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button
+12:16:07.171 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on 'New' button
+12:16:40.819 [main] INFO  com.crm.qa.pages.ContactsPage - entering first name
+12:16:43.104 [main] INFO  com.crm.qa.pages.ContactsPage - entering middle name
+12:16:44.001 [main] INFO  com.crm.qa.pages.ContactsPage - entering last name
+12:16:45.519 [main] INFO  com.crm.qa.pages.ContactsPage - clicking on save button
+12:16:54.922 [main] INFO  com.crm.qa.tests.ContactsPageTest - browser closed

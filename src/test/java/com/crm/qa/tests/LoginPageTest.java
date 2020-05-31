@@ -33,9 +33,8 @@ public class LoginPageTest extends TestBase {
 	}
 	
 	@Test(priority=1)
-	private void validateLoginTest() {				
-		loginPage.validateLogin(prop.getProperty("email"), prop.getProperty("password"));
-		homePage = new HomePage();
+	private void validateLoginTest() {						
+		homePage = loginPage.validateLogin(prop.getProperty("email"), prop.getProperty("password"));
 		WebElement user = homePage.validateUserIcon(); 
 		Assert.assertTrue(user.isDisplayed());
 		log.info("logged in successfully and landed on home page");

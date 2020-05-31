@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="136657" started-at="2020-05-26T13:00:11 IST" finished-at="2020-05-26T13:02:28 IST">
+  <suite name="Default suite" duration-ms="215684" started-at="2020-05-28T12:13:19 IST" finished-at="2020-05-28T12:16:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="136657" started-at="2020-05-26T13:00:11 IST" finished-at="2020-05-26T13:02:28 IST">
+    <test name="Default test" duration-ms="215684" started-at="2020-05-28T12:13:19 IST" finished-at="2020-05-28T12:16:54 IST">
       <class name="com.crm.qa.tests.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="setUp" is-config="true" duration-ms="71372" started-at="2020-05-26T13:00:11 IST" finished-at="2020-05-26T13:01:23 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="setUp" is-config="true" duration-ms="79973" started-at="2020-05-28T12:13:19 IST" finished-at="2020-05-28T12:14:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="createNewContactsTest" duration-ms="13025" started-at="2020-05-26T13:01:27 IST" data-provider="getData" finished-at="2020-05-26T13:01:40 IST">
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="createNewContactsTest" duration-ms="43048" started-at="2020-05-28T12:14:43 IST" data-provider="getData" finished-at="2020-05-28T12:15:26 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactsTest -->
-        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="createNewContactsTest" duration-ms="23759" started-at="2020-05-26T13:01:40 IST" data-provider="getData" finished-at="2020-05-26T13:02:04 IST">
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="createNewContactsTest" duration-ms="40101" started-at="2020-05-28T12:15:27 IST" data-provider="getData" finished-at="2020-05-28T12:16:07 IST">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactsTest -->
-        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="createNewContactsTest" duration-ms="22301" started-at="2020-05-26T13:02:04 IST" data-provider="getData" finished-at="2020-05-26T13:02:26 IST">
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="createNewContactsTest" duration-ms="41310" started-at="2020-05-28T12:16:07 IST" data-provider="getData" finished-at="2020-05-28T12:16:48 IST">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="tearDown" is-config="true" duration-ms="1727" started-at="2020-05-26T13:02:26 IST" finished-at="2020-05-26T13:02:28 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@6236eb5f]" name="tearDown" is-config="true" duration-ms="6441" started-at="2020-05-28T12:16:48 IST" finished-at="2020-05-28T12:16:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
